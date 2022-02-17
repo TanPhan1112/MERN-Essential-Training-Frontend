@@ -20,9 +20,9 @@ class App extends React.Component {
     const url = 'http://localhost:4000/players';
 
     axios.get(url)
-      .then((Response) => {
+      .then((response) => {
         this.setState({
-          players: Response.data
+          players: response.data
         })
       })
       .catch((error) => {

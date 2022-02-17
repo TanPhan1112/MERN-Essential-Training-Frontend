@@ -5,7 +5,7 @@ const PlayerSingle = (props) => {
         <div className="col s12 m7">
             <div className="card">
                 <div className="card-image">
-                    <img src="soccer.jpeg" alt="Soccer image" />
+                    <img src="soccer.jpeg" alt="Soccer" />
                     <span className="card-title">{props.player.firstName} {props.player.lastName}</span>
                 </div>
                 <div className="card-content">
